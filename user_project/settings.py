@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     'rest_framework',
     
 ]
+REST_FRAMEWORK={
+    "NON_FIELD_ERRORS_KEY": 'erros'
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
